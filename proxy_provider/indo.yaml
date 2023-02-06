@@ -1,0 +1,14 @@
+proxies:
+- name: MASTER
+  server: bugmu.com
+  port: 443
+  type: trojan
+  password: f2233420-1ecf-11ed-bf74-1239d0255272
+  sni: us-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: us-trojan.bonds.id
